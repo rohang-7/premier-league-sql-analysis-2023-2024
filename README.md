@@ -1,11 +1,11 @@
-# 🧩 Introduction — Basic SQL Queries (`04_basic_queries.sql`)
+# Introduction — Basic SQL Queries (`04_basic_queries.sql`)
 
 This section contains **foundational SQL commands** to explore and understand the Premier League dataset after importing it into MySQL.  
 These queries help verify data integrity, perform quick summaries, and identify key insights such as total matches, team performance, and scoring patterns.
 
 ---
 
-## 🔑 Key SQL Keywords Explained
+## Key SQL Keywords Explained
 
 |-----------------------|-------------|--------------------------|
 | **`SELECT`** | Used to choose specific columns to display from a table. | `SELECT team, result FROM matches;` |
@@ -21,7 +21,7 @@ These queries help verify data integrity, perform quick summaries, and identify 
 
 ---
 
-## 🏗️ What These Queries Do
+## What These Queries Do
 
 1. **Preview the dataset** — Display a few rows to confirm data loaded correctly.  
 2. **Count total matches** — Sanity check for dataset size.  
@@ -32,7 +32,7 @@ These queries help verify data integrity, perform quick summaries, and identify 
 
 ---
 
-## ✅ Outcome
+## Outcome
 
 After running this script, you’ll have a clear understanding of:
 - The structure and accuracy of your data  
