@@ -71,7 +71,7 @@ This script contains foundational SQL commands to verify and explore the dataset
 ##   5. intermediate_queries.sql
 Focuses on **applied analytics** — generating season-level summaries, home/away splits, and head-to-head performance tables.
 
-### 🧩 Key Highlights:
+###  Key Highlights:
 - League tables with points and goal difference  
 - Home vs away performance comparison  
 - Month-over-month scoring trends  
