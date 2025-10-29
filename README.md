@@ -25,12 +25,12 @@ sql/
 
 ##  **Getting Started**
 
-### ** 1. Prerequisites**
+###  1. Prerequisites
 - MySQL 8.0 or higher installed.
 - MySQL Workbench or command-line client.
 - The CSV file (`matches_final.csv`) stored locally.
 
-### ** 2. Run in MySQL (Command-Line)**
+###  2. Run in MySQL (Command-Line)
 
 ```bash
 # Start MySQL with local file imports enabled
@@ -43,7 +43,7 @@ SOURCE sql/03_import_data.sql;
 SOURCE sql/04_basic_queries.sql;
 ```
 
-### ** 3. Run in MySQL Workbench**
+###  3. Run in MySQL Workbench
 1. Open MySQL Workbench.
 2. Connect to your server.
 3. Go to **File → Open SQL Script...** and select any of the `.sql` files.
@@ -51,7 +51,7 @@ SOURCE sql/04_basic_queries.sql;
 
 
 
-##  ** 4. basic_queries.sql**
+##   4. basic_queries.sql
 This script contains foundational SQL commands to verify and explore the dataset.
 
 ###  Key Concepts:
@@ -68,7 +68,7 @@ This script contains foundational SQL commands to verify and explore the dataset
 
 
 
-##  ** 5. intermediate_queries.sql**
+##   5. intermediate_queries.sql
 Focuses on **applied analytics** — generating season-level summaries, home/away splits, and head-to-head performance tables.
 
 ### 🧩 Key Highlights:
@@ -79,7 +79,7 @@ Focuses on **applied analytics** — generating season-level summaries, home/awa
 
 
 
-##  ** 6. advanced_window_functions_ctes.sql**
+##   6. advanced_window_functions_ctes.sql
 Introduces **CTEs (Common Table Expressions)** and **window functions** to perform dynamic analysis and ranking.
 
 ###  Concepts Covered:
@@ -91,7 +91,7 @@ Introduces **CTEs (Common Table Expressions)** and **window functions** to perfo
 
 
 
-##  **Learning Outcomes**
+##  Learning Outcomes
 By completing this project, you will:
 - Understand real-world SQL workflow — from data ingestion to analysis  
 - Apply both **analytical** and **engineering** SQL techniques  
@@ -99,14 +99,14 @@ By completing this project, you will:
 - Demonstrate proficiency with **MySQL 8** window functions and CTEs  
 ---
 
-##  **Dataset Details**
+##  Dataset Details
 The dataset (`matches_final.csv`) contains columns such as:
 - `date`, `time`, `team`, `opponent`, `season`, `result`, `gf`, `ga`, `xg`, `xga`, `poss`, `attendance`, `referee`, `venue`, etc.  
 It represents match-level Premier League data over multiple seasons.
 
 
 
-##  **Example Analytical Questions**
+##  Example Analytical Questions
 - Which team had the highest win rate this season?  
 - Which stadium had the highest average attendance?  
 - Who are the top-performing teams in away matches?  
@@ -115,9 +115,9 @@ It represents match-level Premier League data over multiple seasons.
 
 
 
-#  **Future Extensions**
+#  Future Extensions
 
-##  ** dashboard_views.sql**
+##   dashboard_views.sql
 Creates reusable **MySQL views** for visualization tools like **Tableau, Power BI, or Looker Studio**.
 
 ### Includes:
@@ -129,7 +129,7 @@ Creates reusable **MySQL views** for visualization tools like **Tableau, Power B
 
 ---
 
-##  ** data_quality_checks.sql**
+##   data_quality_checks.sql
 Ensures data integrity before further analysis.  
 It checks for:
 - Null values per column  
@@ -139,7 +139,7 @@ It checks for:
 
 ---
 
-##  ** indexes_and_optimizations.sql**
+##   indexes_and_optimizations.sql
 Improves query performance with indexing and optimization.
 
 ### Adds:
